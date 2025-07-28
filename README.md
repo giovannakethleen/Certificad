@@ -1,6 +1,5 @@
 # Gerador de Certificados
-## 💻 Projeto
-- [Acessar o site](https://certificad.netlify.app/)
+## 💻 [Acessar o site](https://certificad.netlify.app/)
   
 <p align="center">
  Projeto feito a partir aulas da Rockeseat para o desenvolvimento de novos conhecimento em Angular.
