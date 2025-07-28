@@ -1,6 +1,10 @@
 [build]
 command = "ng build --configuration=production"
+<<<<<<< HEAD
 publish = "dist/gerador-certificado/browser"
+=======
+publish = "dist/gerador-certificados/browser"
+>>>>>>> 6f9464f8 (update)
 
 [[redirects]]
 from = "/*"
