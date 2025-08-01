@@ -2,25 +2,41 @@
 
 .menu-certificado {
   max-width: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
 }
 
 .btn-voltar {
+  display: flex;
+  align-items: center;
   gap: 6px;
   cursor: pointer;
+  padding: 8px 16px;
+  height: 40px;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.btn-voltar:hover {
+  background-color: #1a285692;
 }
 
 .btn-voltar p {
   font-weight: 600;
   font-size: 14px;
   line-height: 20px;
-  letter-spacing: 0;
-  vertical-align: middle;
-  color: #64748b;
+  color: #353535;
+  margin: 0;
 }
 
 .btn-voltar i {
   font-size: 20px;
-  color: #64748b;
+  color: #353535;
 }
 
 .certificado {
@@ -36,15 +52,15 @@
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 12px;
+
 }
 
 .conteudo-certificado {
   position: relative;
   width: 720px;
   height: 470px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.649); 
   border-radius: 8px;
-  margin: 0 auto;
 }
 
 
@@ -90,11 +106,23 @@
   line-height: 80px;
   letter-spacing: 0;
   text-align: center;
-  color: #3b5ac2;
+  color: #192b67;
 }
 
 .lista-atividade {
-  width: 413.7px;
+  width: 80%; /* ou 100% se quiser ocupar toda a largura */
+  text-align: justify;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #364262;
+}
+
+.lista-atividade-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
 }
 
 .lista-atividade-titulo {
@@ -104,6 +132,7 @@
   letter-spacing: 0;
   text-align: center;
   color: #121621;
+  
 }
 
 .lista-atividade {
