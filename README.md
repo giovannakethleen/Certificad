@@ -14,7 +14,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - CSS
 - Bootstrap
 - Angular
-- Node.Js
 - Git
 
 <p> Feito por Giovanna Kethleen ♥ </p>
